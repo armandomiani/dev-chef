@@ -1,0 +1,6 @@
+include_recipe 'apache2'
+include_recipe 'apache2::ipv4-listen'
+include_recipe 'apache2::mod-rewrite'
+include_recipe 'apache2::mod-deflate'
+include_recipe 'apache2::mod-cache-disk'
+include_recipe 'apache2::security-config'
